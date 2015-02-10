@@ -1,0 +1,4 @@
+{:dbname      "hps-logging"
+ :action      :rename-keys
+ :rename-keys {:filter-fn (fn [{timeMillis :timeMillis}] (< 7000 timeMillis))
+               :rename-fn (fn [{namespace :namespace timeMillis :timeMillis}] (str namespace "-" timeMillis))}}

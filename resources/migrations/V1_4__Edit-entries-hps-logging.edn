@@ -1,0 +1,4 @@
+{:dbname       "hps-logging"
+ :action       :edit-entries
+ :edit-entries {:filter-fn (fn [{timeMillis :timeMillis}] (< 8000 timeMillis))
+                :edit-fn (fn [entry] (assoc entry :igor "You saw it!" :message "Roberto asked for this!"))}}
