@@ -4,7 +4,7 @@
   :license {:name "BSD"
             :url "http://www.opensource.org/licenses/BSD-3-Clause"}
   :dependencies [[org.clojure/clojure "1.6.0"]
-                 [flycouchdb "0.1.22-SNAPSHOT"]]
+                 [flycouchdb "0.1.27-SNAPSHOT"]]
 
   :min-lein-version "2.0.0"
 
