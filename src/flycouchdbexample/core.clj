@@ -3,7 +3,6 @@
         [flycouchdb.migration :only (migrate flycouchdb)])
   (:gen-class))
 
-
 (def folder-path (resource "migrations/"))
 
 (def flydb (flycouchdb folder-path))
