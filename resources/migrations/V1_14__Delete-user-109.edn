@@ -1,0 +1,3 @@
+{:dbname           "eduard-db"
+ :action           :delete-documents
+ :delete-documents {:filter-fn (fn [{name :name}] (= "user-109" name))}}
